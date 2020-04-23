@@ -6,3 +6,4 @@ services:
    - "3000:3000/tcp"
   volumes:
    - /etc/localtime:/etc/localtime:ro
+   - ./grafana-storage:/var/lib/grafana:rw

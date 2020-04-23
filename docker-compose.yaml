@@ -1,0 +1,8 @@
+version: '3.5'
+services:
+ jenkins:
+  image: grafana/grafana:6.7.2
+  ports:
+   - "3000:3000/tcp"
+  volumes:
+   - /etc/localtime:/etc/localtime:ro
